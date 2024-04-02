@@ -9,28 +9,30 @@ format:
     slide-number: true
     chalkboard: 
       buttons: false
-    preview-links: auto
+    preview-links: true
     code-fold: true
     code-line-numbers: true
     code-copy: true
     logo: imgs/cover.jpg
     theme: [default, custom.scss]
     footer: <https://github.com/fiorelacl/curso_cah>
-
 ---
 
-## Quarto
+## Por qué Python?
 
 Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
-## Bullets
+## Aplicaciones
+
+
+## Instalación
 
 When you click the **Render** button a document will be generated that includes:
 
 -   Content authored with markdown
 -   Output from executable code
 
-## Code
+## Entornos de Desarrollo
 
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
@@ -38,4 +40,14 @@ When you click the **Render** button a presentation will be generated that inclu
 1 + 1
 ```
 
+:::{.panel-tabset}
 
+### Tab A
+
+content 
+
+### Tab B
+
+contenttttt
+
+:::

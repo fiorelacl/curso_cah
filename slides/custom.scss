@@ -1,8 +1,34 @@
 /*-- scss:defaults --*/
 
-$body-bg: #191919;
-$body-color: #fff;
-$link-color: #42affa;
+$theme-bg-dark-purple: #1b002c;
+$theme-lt-ligth-blue: #d2e4ff;
+$theme-lt-ligth-skyblue: #b4ebed;
+$theme-lt-ligth-yellow: #ededb4;
+$theme-lt-ligth-green:#b4edb6;
+$theme-lt-ligth-pink: #f9daee;
+$theme-lt-ligth-orange: #ffdada;
+$theme-lt-ligth-gray: #cfcfcf;
+
+$theme-bg-ligth-yellow: #fdf5e2;
+$theme-lt-dark-black: #350a45;
+$theme-lt-dark-blue: #0b0b6f;
+$theme-lt-dark-brown: #3e0f0f;
+$theme-lt-dark-green: #2e5d2e;
+$theme-lt-dark-greenblue:#095e51;
+
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+$body-bg: $theme-bg-ligth-yellow;
+$body-color: $theme-lt-dark-black;
+$link-color: $theme-lt-dark-greenblue;
+
+$presentation-heading-color: $theme-lt-dark-green;
+
+$font-family-sans-serif: 'Courier Prime', monospace;
+$presentation-heading-font: 'Special Elite', system-ui;
 
 /*-- scss:rules --*/
 
